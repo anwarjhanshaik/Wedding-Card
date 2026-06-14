@@ -2,7 +2,7 @@
 
 A premium, fully responsive digital wedding invitation card crafted purely with semantic HTML5 and standard CSS3. Designed with a mobile-first approach, this template provides a seamless user experience across all devices, digital screens, and physical print mediums.
 
-Live Demo: [Insert Your GitHub Pages Link Here]
+Live Demo: [https://anwarjhanshaik.github.io/Wedding-Card/]
 
 ---
 
