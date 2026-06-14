@@ -1,0 +1,694 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Spectral";
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: hsl(0 100% 100% / 85%);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+h1, h2, h3, h4, #caligraphy, span {
+  font-family: "Quattrocento";
+}
+
+/*HEADER*/
+
+#tasmiya {
+  font-size: 3rem;
+}
+
+.heart {
+  color: #8e6a3e;
+  margin: 0 1rem;
+}
+
+.header {
+  background-image: url("bg5.jpeg");
+  background-size: cover;
+  overflow: hidden;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-family: "Quattrocento";
+  object-fit: cover;
+  text-align: center;
+}
+
+.header-container {
+  position: relative;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: hsl(0 100% 100% / 85%);
+
+  border: 1px solid #e8daca;
+}
+
+.dates {
+  margin-top: 4rem;
+}
+
+.sp1 {
+  font-size: 4rem;
+  color: #7c5c36;
+}
+
+.dates h1, h2 {
+  font-weight: 500;
+}
+
+.dates h1:nth-child(1) {
+  font-size: 3rem;
+}
+
+
+.dates h2:nth-child(2) {
+  margin-top: 4rem;
+  font-size: 2.4rem;
+}
+
+.dates h2:nth-child(3) {
+  margin-top: 1.2rem;
+  font-size: 2.2rem;
+}
+/*=========================*/
+
+/*ABOUT*/
+.about {
+  padding: 4rem 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.about h1 {
+  font-weight: 510;
+}
+
+#caligraphy {
+  font-size: 2.8rem;
+  margin-bottom: 3rem;
+  line-height: 1.6;
+  text-align: center;
+  text-wrap: wrap;
+}
+
+.about-content p {
+  font-size: 1.4rem; 
+  line-height: 2;
+  margin-bottom: 1rem;
+}
+
+#g-parents {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.about h1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 3rem;
+  margin: 3rem 0 2rem 0;
+  font-weight: 500;
+}
+
+#b-parents {
+  font-size: 1.6rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.about-content p:nth-of-type(5) {
+  margin-bottom: 4rem;
+}
+
+.details-btn {
+  display: inline-block;
+  background-color: #47341f;
+  box-shadow: 4px 4px 20px 0px hsla(0, 0%, 0%, 0.1),
+  -4px -4px 20px 0px hsla(0, 0%, 0%, 0.1)
+;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.details-btn a {
+  color: white;
+  font-size: 1.6rem;
+  display: inline-block;
+  padding: 2rem 3.4rem;
+  width: 100%;
+  height: 100%;
+}
+/*=========================*/
+
+/*INVITE*/
+.invitation-image {
+  min-height: 100vh;
+  background-image: url("fl1.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  color: #f2eae1;
+  font-weight: 500;
+  padding: 4rem 2rem;
+}
+
+.invitation-image h1 {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*=========================*/
+
+/*VENUE*/
+.venu {
+  padding: 2rem 0 8rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.venu img {
+  width: 100%;
+  min-height: 26rem;
+  width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+  margin: 3rem 0 2rem;
+}
+
+.venu-details {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 3rem;
+  line-height: 1.8;
+  padding: 0 2rem;
+}
+
+.venu h2 {
+  font-size: 2.8rem;
+}
+
+.venu h2:first-letter {
+  font-size: 4rem;
+}
+
+.venu-details h3 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  margin-bottom: -1.5rem;
+}
+
+h3::first-letter {
+  color: #47341f;
+  font-size: 3rem;
+}
+
+.venu-half {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.venu-half p {
+  font-size: 1.6rem; 
+}
+
+.venu-half a {
+  color: #47341f;
+}
+
+/*173 = 481px*/
+
+ /*============================
+        MEDIA QUERIES 
+  ============================*/
+@media screen and (min-width: 481px
+) {
+  /*HEADER*/
+  #tasmiya {
+    font-size: 5rem;
+  }
+  
+  .header-container {
+    padding: 5rem;
+  }
+  
+  .sp1 {
+    font-size: 6.5rem;
+  }
+  
+  .dates {
+    margin-top: 6rem;
+  }
+  
+  .dates h1:nth-child(1) {
+    font-size: 5rem;
+  }
+  
+  .dates h2:nth-child(2) {
+    margin-top: 5rem;
+    font-size: 3.4rem;
+  }
+ 
+  .dates h2:nth-child(3) {
+    margin-top: 2.2rem;
+    font-size: 3.2rem;
+  }
+  
+  /*ABOUT*/
+  .about {
+    padding: 6rem 4rem;
+  }
+  
+  #caligraphy {
+    margin-bottom: 5rem;
+    font-size: 4.8rem;
+  }
+  
+ .about-content p {
+    font-size: 2.4rem; 
+    line-height: 2;
+    margin-bottom: 2rem;
+  }
+  
+  #g-parents {
+    font-size: 2.6rem;
+    margin-bottom: 2rem;
+  }
+  
+  .about h1 {
+    gap: 1.8rem;
+    font-size: 5rem;
+    margin: 4rem 0 3rem 0;
+  }
+  
+  #b-parents {
+    font-size: 2.6rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about-content p:nth-of-type(5) {
+    margin-bottom: 6rem;
+  }
+  
+  .details-btn a {
+    font-size: 2rem;
+    display: inline-block;
+    padding: 2.4rem 4.4rem;
+  }
+  
+  /*INVITE*/
+  .invitation-image {
+    font-size: 4rem;
+  }
+  
+  /*VENUE*/
+  .venu {
+    padding: 4rem 0;
+    min-height: 80vh;
+  }
+  
+  .venu img {
+    margin: 5rem 0 4rem;
+  }
+  
+  .venu-details {
+    gap: 4rem;
+    line-height: 2;
+    padding: 0 4rem;
+  }
+  
+  .venu h2 {
+    font-size: 3.8rem;
+  }
+
+  .venu h2:first-letter {
+    font-size: 5rem;
+  }
+  
+  .venu-details h3 {
+    font-size: 3.4rem;
+    margin-bottom: -1.5rem;
+  }
+  
+  h3::first-letter {
+    font-size: 4rem;
+  }
+  
+  .venu-half {
+    gap: 2rem;
+  }
+
+  .venu-half p {
+    font-size: 2.6rem; 
+  }
+
+}
+
+@media screen and (min-width: 769px) {
+    /*HEADER*/
+  #tasmiya {
+    font-size: 6rem;
+  }
+  
+  .header-container {
+    padding: 7rem;
+  }
+  
+  .sp1 {
+    font-size: 7.5rem;
+  }
+  
+  .dates {
+    margin-top: 7rem;
+  }
+  
+  .dates h1:nth-child(1) {
+    font-size: 6rem;
+  }
+  
+  .dates h2:nth-child(2) {
+    margin-top: 6rem;
+    font-size: 4.4rem;
+  }
+ 
+  .dates h2:nth-child(3) {
+    margin-top: 3.2rem;
+    font-size: 4.2rem;
+  }
+  
+    /*ABOUT*/
+  .about {
+    padding: 7rem 5rem;
+  }
+  
+  #caligraphy {
+    margin-bottom: 6rem;
+    font-size: 5.8rem;
+  }
+  
+ .about-content p {
+    font-size: 3.4rem; 
+    line-height: 2;
+    margin-bottom: 2rem;
+  }
+  
+  #g-parents {
+    font-size: 3.6rem;
+    margin-bottom: 3rem;
+  }
+  
+  .about h1 {
+    gap: 2.8rem;
+    font-size: 6rem;
+    margin: 5rem 0 4rem 0;
+  }
+  
+  #b-parents {
+    font-size: 3.6rem;
+    margin-bottom: 4rem;
+  }
+  
+  .about-content p:nth-of-type(5) {
+    margin-bottom: 7rem;
+  }
+  
+  .details-btn a {
+    font-size: 3rem;
+    display: inline-block;
+    padding: 2.8rem 4.8rem;
+  }
+  
+  /*INVITE*/
+  .invitation-image {
+    font-size: 6rem;
+  }
+  
+  /*VENUE*/
+  .venu {
+    padding: 5rem 0;
+    min-height: 80vh;
+  }
+  
+  .venu img {
+    margin: 6rem 0 3rem;
+  }
+  
+  .venu-details {
+    gap: 5rem;
+    line-height: 2;
+    padding: 0 5rem;
+  }
+  
+  .venu h2 {
+    font-size: 4.8rem;
+  }
+  
+  .venu h2:first-letter {
+    font-size: 5.4rem;
+  }
+
+  .venu h2:first-letter {
+    font-size: 6.5rem;
+  }
+  
+  .venu-details h3 {
+    font-size: 4.4rem;
+    margin-bottom: -1.5rem;
+  }
+  
+  h3::first-letter {
+    font-size: 5.5rem;
+  }
+  
+  .venu-half {
+    gap: 3rem;
+  }
+
+  .venu-half p {
+    font-size: 3.6rem; 
+  }
+
+}
+
+
+@media screen and (min-width: 1025px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+    /*HEADER*/
+  #tasmiya {
+    font-size: 7rem;
+  }
+  
+  .header-container {
+    padding: 10rem;
+  }
+  
+  .sp1 {
+    font-size: 8.5rem;
+  }
+  
+  .dates {
+    margin-top: 8rem;
+  }
+  
+  .dates h1:nth-child(1) {
+    font-size: 7rem;
+  }
+  
+  .dates h2:nth-child(2) {
+    margin-top: 7rem;
+    font-size: 5.4rem;
+  }
+ 
+  .dates h2:nth-child(3) {
+    margin-top: 4.2rem;
+    font-size: 5.2rem;
+  }
+  
+    /*ABOUT*/
+  .about {
+    padding: 8rem 6rem;
+  }
+  
+  #caligraphy {
+    margin-bottom: 7rem;
+    font-size: 6.8rem;
+  }
+  
+ .about-content p {
+    font-size: 4.4rem; 
+    line-height: 2;
+    margin-bottom: 3rem;
+  }
+  
+  #g-parents {
+    font-size: 4.6rem;
+    margin-bottom: 4rem;
+  }
+  
+  .about h1 {
+    gap: 3.8rem;
+    font-size: 7rem;
+    margin: 6rem 0 5rem 0;
+  }
+  
+  #b-parents {
+    font-size: 4.6rem;
+    margin-bottom: 5rem;
+  }
+  
+  .about-content p:nth-of-type(5) {
+    margin-bottom: 8rem;
+  }
+  
+  .details-btn a {
+    font-size: 5rem;
+    display: inline-block;
+    padding: 3rem 5rem;
+  }
+  
+  /*INVITE*/
+  .invitation-image {
+    font-size: 7rem;
+  }
+  
+  /*VENUE*/
+  .venu {
+    padding: 6rem 0;
+    min-height: 80vh;
+  }
+  
+  .venu img {
+    margin: 7rem 0 4rem;
+  }
+  
+  .venu-details {
+    gap: 6rem;
+    line-height: 2;
+    padding: 0 6rem;
+  }
+  
+  .venu h2 {
+    font-size: 5.8rem;
+  }
+  
+  .venu h2:first-letter {
+    font-size: 6.4rem;
+  }
+
+  .venu h2:first-letter {
+    font-size: 7.5rem;
+  }
+  
+  .venu-details h3 {
+    font-size: 5.4rem;
+    margin-bottom: -1.5rem;
+  }
+  
+  h3::first-letter {
+    font-size: 6.5rem;
+  }
+  
+  .venu-half {
+    gap: 4rem;
+  }
+
+  .venu-half p {
+    font-size: 4.6rem; 
+  }
+}
+
+
+/*  ============================
+   7. PRINT STYLESHEET (For Paper & PDFs)
+   =============================*/
+@media print {
+  * {
+    border: none!important;
+    min-height: auto!important;
+  }
+  
+  body {
+    background-color: #ffffff;
+    color: #000;
+    display: block;
+  }
+  
+  .header, .invitation-image ,.about , .venu {
+    background: none!important;
+    padding: 0!important;
+    margin: 0!important;
+  }
+  
+  .details-btn {
+    display: none!important;
+  }
+  
+  .invitation-image h1{
+    display: block!important;
+    font-size: 3rem!important;
+    color: #7c5c36!important;
+  }
+  
+  .venu {
+    page-break-inside: avoid!important;
+  }
+
+}
+
+
+/*Dark mode*/
+@media (prefers-color-scheme: dark) {
+  body, .header-container, a{
+    background-color: #1e1e1e!important;
+    color: #e0e0e0!important;
+  }
+  
+  .details-btn a {
+    background-color: #7c5c36!important;
+  }
+  
+  .venu h2:first-letter {
+    color: #7c5c36!important;
+}
+}
